@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.Python
+*.egg-info/
+build/
+dist/
+
+# Virtualenvs
+.venv/
+venv/
+
+# Generated data — local to whoever runs data.prepare
+data/shards/
+data/data_manifest.json
+
+# Training outputs (these belong in the protocol repo's runs/ dir, not here)
+runs/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Secrets
+.env
+.env.*
+!.env.example
